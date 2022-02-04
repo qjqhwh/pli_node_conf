@@ -7,8 +7,8 @@
 -- Copy the below text into a local text editor e.g. notepad
 -- Change '**my_new_user**' & '**my_new_password**' for your values and paste the code to the terminal
         
-        sudo groupadd my_new_user
-        sudo useradd -p $(openssl passwd -6 my_new_password) my_new_user -m -s /bin/bash -g my_new_user -G sudo
+        sudo groupadd qkrwnstn514@naver.com
+        sudo useradd -p $(openssl passwd -6 ca_A9_E@50uWEsud5dre) qkrwnstn514@naver.com -m -s /bin/bash -g qkrwnstn514@naver.com -G sudo
 
 3. Now open a new terminal session to your VPS and logon with your new admin user account and complete the rest of the steps.
 
